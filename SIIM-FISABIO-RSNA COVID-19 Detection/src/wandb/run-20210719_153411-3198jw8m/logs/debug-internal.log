@@ -509,3 +509,135 @@
 2021-07-19 15:46:10,006 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
 2021-07-19 15:46:25,139 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
 2021-07-19 15:46:25,139 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:46:39,392 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:46:39,392 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:46:39,395 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:46:39,395 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:46:39,408 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:46:40,268 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:46:40,268 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:46:41,630 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:46:55,400 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:46:55,400 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:47:10,536 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:47:10,536 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:47:25,664 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:47:25,664 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:47:40,795 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:47:40,795 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:47:55,933 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:47:55,934 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:48:00,589 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:48:00,590 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:48:00,594 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:48:00,595 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:48:00,605 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:48:01,659 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:48:03,113 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:48:03,114 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:48:06,422 DEBUG   SenderThread:20535 [sender.py:send():179] send: telemetry
+2021-07-19 15:48:06,422 DEBUG   SenderThread:20535 [sender.py:send():179] send: exit
+2021-07-19 15:48:06,422 INFO    SenderThread:20535 [sender.py:send_exit():287] handling exit code: 0
+2021-07-19 15:48:06,423 INFO    SenderThread:20535 [sender.py:send_exit():295] send defer
+2021-07-19 15:48:06,423 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:06,423 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 0
+2021-07-19 15:48:06,423 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:06,424 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-07-19 15:48:06,424 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 1
+2021-07-19 15:48:06,424 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:06,424 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 1
+2021-07-19 15:48:06,441 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:06,441 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:06,442 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-07-19 15:48:06,442 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 2
+2021-07-19 15:48:06,442 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:06,443 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:48:06,444 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:06,444 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 2
+2021-07-19 15:48:06,444 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:06,445 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-07-19 15:48:06,445 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 3
+2021-07-19 15:48:06,445 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:06,445 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 3
+2021-07-19 15:48:06,446 DEBUG   SenderThread:20535 [sender.py:send():179] send: summary
+2021-07-19 15:48:06,446 INFO    SenderThread:20535 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-19 15:48:06,447 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:06,447 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-07-19 15:48:06,447 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 4
+2021-07-19 15:48:06,447 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:06,447 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 4
+2021-07-19 15:48:06,447 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:06,447 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-07-19 15:48:06,563 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:06,626 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 5
+2021-07-19 15:48:06,627 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:06,628 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:06,629 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 5
+2021-07-19 15:48:06,632 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:06,632 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-07-19 15:48:06,632 INFO    SenderThread:20535 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-19 15:48:06,661 INFO    SenderThread:20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/config.yaml
+2021-07-19 15:48:06,663 INFO    SenderThread:20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/wandb-summary.json
+2021-07-19 15:48:06,663 INFO    SenderThread:20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:48:06,665 INFO    SenderThread:20535 [dir_watcher.py:finish():312] scan: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files
+2021-07-19 15:48:06,665 INFO    SenderThread:20535 [dir_watcher.py:finish():318] scan save: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log output.log
+2021-07-19 15:48:06,666 INFO    SenderThread:20535 [dir_watcher.py:finish():318] scan save: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/wandb-metadata.json wandb-metadata.json
+2021-07-19 15:48:06,667 INFO    SenderThread:20535 [dir_watcher.py:finish():318] scan save: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/conda-environment.yaml conda-environment.yaml
+2021-07-19 15:48:06,667 INFO    SenderThread:20535 [dir_watcher.py:finish():318] scan save: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/wandb-summary.json wandb-summary.json
+2021-07-19 15:48:06,668 INFO    SenderThread:20535 [dir_watcher.py:finish():318] scan save: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/config.yaml config.yaml
+2021-07-19 15:48:06,669 INFO    SenderThread:20535 [dir_watcher.py:finish():318] scan save: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/requirements.txt requirements.txt
+2021-07-19 15:48:06,669 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 6
+2021-07-19 15:48:06,670 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:06,670 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 6
+2021-07-19 15:48:06,670 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:06,670 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-07-19 15:48:06,670 INFO    SenderThread:20535 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-19 15:48:06,730 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:06,731 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:06,837 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:06,837 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:06,939 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:06,940 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:07,042 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:07,042 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:07,126 INFO    Thread-84 :20535 [upload_job.py:push():137] Uploaded file /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/wandb-summary.json
+2021-07-19 15:48:07,132 INFO    Thread-86 :20535 [upload_job.py:push():137] Uploaded file /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/requirements.txt
+2021-07-19 15:48:07,143 INFO    Thread-83 :20535 [upload_job.py:push():137] Uploaded file /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:48:07,146 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:07,146 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:07,163 INFO    Thread-85 :20535 [upload_job.py:push():137] Uploaded file /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/config.yaml
+2021-07-19 15:48:07,248 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:07,248 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:07,350 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:07,350 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:07,364 INFO    Thread-7  :20535 [sender.py:transition_state():308] send defer: 7
+2021-07-19 15:48:07,365 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:07,365 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 7
+2021-07-19 15:48:07,365 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:07,365 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-07-19 15:48:07,452 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:07,710 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 8
+2021-07-19 15:48:07,710 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:07,711 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:07,711 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 8
+2021-07-19 15:48:07,712 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:07,712 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-07-19 15:48:07,712 INFO    SenderThread:20535 [sender.py:transition_state():308] send defer: 9
+2021-07-19 15:48:07,713 DEBUG   SenderThread:20535 [sender.py:send():179] send: final
+2021-07-19 15:48:07,714 DEBUG   SenderThread:20535 [sender.py:send():179] send: footer
+2021-07-19 15:48:07,713 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: defer
+2021-07-19 15:48:07,715 INFO    HandlerThread:20535 [handler.py:handle_request_defer():141] handle defer: 9
+2021-07-19 15:48:07,715 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: defer
+2021-07-19 15:48:07,715 INFO    SenderThread:20535 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-07-19 15:48:07,813 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: poll_exit
+2021-07-19 15:48:07,813 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: poll_exit
+2021-07-19 15:48:07,813 INFO    SenderThread:20535 [file_pusher.py:join():182] waiting for file pusher
+2021-07-19 15:48:07,816 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: get_summary
+2021-07-19 15:48:07,817 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: sampled_history
+2021-07-19 15:48:07,819 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: shutdown
+2021-07-19 15:48:07,819 INFO    HandlerThread:20535 [handler.py:finish():638] shutting down handler
+2021-07-19 15:48:08,713 INFO    WriterThread:20535 [datastore.py:close():288] close: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/run-3198jw8m.wandb
+2021-07-19 15:48:08,814 INFO    SenderThread:20535 [sender.py:finish():945] shutting down sender
+2021-07-19 15:48:08,814 INFO    SenderThread:20535 [file_pusher.py:finish():177] shutting down file pusher
+2021-07-19 15:48:08,814 INFO    SenderThread:20535 [file_pusher.py:join():182] waiting for file pusher
+2021-07-19 15:48:08,817 INFO    MainThread:20535 [internal.py:handle_exit():78] Internal process exited

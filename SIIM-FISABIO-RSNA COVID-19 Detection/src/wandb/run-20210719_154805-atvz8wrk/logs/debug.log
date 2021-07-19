@@ -1,0 +1,140 @@
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] setting env: {'silent': 'true'}
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: Currently logged in as: [33msaifmu6[0m (use `wandb login --relogin` to force relogin)
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: wandb version 0.11.0 is available!  To upgrade, please run:
+[34m[1mwandb[0m:  $ pip install wandb --upgrade
+2021-07-19 15:48:05,578 INFO    MainThread:19745 [wandb_init.py:_log_setup():337] Logging user logs to /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_154805-atvz8wrk/logs/debug.log
+2021-07-19 15:48:05,578 INFO    MainThread:19745 [wandb_init.py:_log_setup():338] Logging internal logs to /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_154805-atvz8wrk/logs/debug-internal.log
+2021-07-19 15:48:05,580 INFO    MainThread:19745 [wandb_init.py:init():370] calling init triggers
+2021-07-19 15:48:05,580 INFO    MainThread:19745 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-07-19 15:48:05,580 INFO    MainThread:19745 [wandb_init.py:init():392] re-initializing run, found existing run on stack: 3198jw8m
+2021-07-19 15:48:05,581 INFO    MainThread:19745 [wandb_run.py:finish():1293] finishing run saifmu6/siim-fisabio-rsna-covid-19-detection/3198jw8m
+2021-07-19 15:48:05,581 INFO    MainThread:19745 [jupyter.py:save_history():339] not saving jupyter history
+2021-07-19 15:48:05,581 INFO    MainThread:19745 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-07-19 15:48:05,581 INFO    MainThread:19745 [wandb_init.py:_jupyter_teardown():269] cleaning up jupyter logic
+2021-07-19 15:48:05,581 INFO    MainThread:19745 [wandb_run.py:_atexit_cleanup():1593] got exitcode: 0
+2021-07-19 15:48:05,582 INFO    MainThread:19745 [wandb_run.py:_restore():1565] restore
+2021-07-19 15:48:06,449 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1039
+  total_bytes: 1039
+}
+
+2021-07-19 15:48:06,629 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1039
+  total_bytes: 1039
+}
+
+2021-07-19 15:48:06,731 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1039
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:06,838 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1039
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:06,941 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1039
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:07,043 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 34111
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:07,147 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 34111
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:07,249 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 34111
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:07,351 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 34111
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:07,712 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 34111
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:07,814 INFO    MainThread:19745 [wandb_run.py:_wait_for_finish():1715] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 34111
+  total_bytes: 34111
+}
+
+2021-07-19 15:48:09,560 INFO    MainThread:19745 [wandb_init.py:init():419] starting backend
+2021-07-19 15:48:09,561 INFO    MainThread:19745 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-07-19 15:48:09,569 INFO    MainThread:19745 [backend.py:ensure_launched():135] starting backend process...
+2021-07-19 15:48:09,577 INFO    MainThread:19745 [backend.py:ensure_launched():140] started backend process with pid: 22109
+2021-07-19 15:48:09,580 INFO    MainThread:19745 [wandb_init.py:init():424] backend started and connected
+2021-07-19 15:48:09,646 INFO    MainThread:19745 [wandb_run.py:_label_probe_notebook():844] probe notebook
+2021-07-19 15:48:10,069 INFO    MainThread:19745 [wandb_init.py:init():472] updated telemetry
+2021-07-19 15:48:10,074 INFO    MainThread:19745 [wandb_init.py:init():491] communicating current version
+2021-07-19 15:48:10,913 INFO    MainThread:19745 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.11.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-07-19 15:48:10,913 INFO    MainThread:19745 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-07-19 15:48:11,310 INFO    MainThread:19745 [wandb_init.py:init():529] starting run threads in backend
+2021-07-19 15:48:16,312 INFO    MainThread:19745 [wandb_run.py:_console_start():1623] atexit reg
+2021-07-19 15:48:16,313 INFO    MainThread:19745 [wandb_run.py:_redirect():1497] redirect: SettingsConsole.WRAP
+2021-07-19 15:48:16,315 INFO    MainThread:19745 [wandb_run.py:_redirect():1534] Wrapping output streams.
+2021-07-19 15:48:16,318 INFO    MainThread:19745 [wandb_run.py:_redirect():1558] Redirects installed.
+2021-07-19 15:48:16,318 INFO    MainThread:19745 [wandb_init.py:init():554] run started, returning control to user process
+2021-07-19 15:54:53,153 INFO    MainThread:19745 [wandb_setup.py:_flush():69] setting env: {'silent': 'true'}
+2021-07-19 15:54:53,153 INFO    MainThread:19745 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-19 15:54:53,153 INFO    MainThread:19745 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: Currently logged in as: [33msaifmu6[0m (use `wandb login --relogin` to force relogin)
+2021-07-19 15:54:53,153 INFO    MainThread:19745 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: wandb version 0.11.0 is available!  To upgrade, please run:
+[34m[1mwandb[0m:  $ pip install wandb --upgrade
+2021-07-19 15:54:53,153 INFO    MainThread:19745 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: wandb version 0.11.0 is available!  To upgrade, please run:
+[34m[1mwandb[0m:  $ pip install wandb --upgrade
+2021-07-19 15:54:53,154 INFO    MainThread:19745 [wandb_init.py:_log_setup():337] Logging user logs to /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_155453-11vh6fot/logs/debug.log
+2021-07-19 15:54:53,154 INFO    MainThread:19745 [wandb_init.py:_log_setup():338] Logging internal logs to /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_155453-11vh6fot/logs/debug-internal.log
+2021-07-19 15:54:53,155 INFO    MainThread:19745 [wandb_init.py:_jupyter_setup():288] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fab90dde6d0>
+2021-07-19 15:54:53,155 INFO    MainThread:19745 [wandb_init.py:init():370] calling init triggers
+2021-07-19 15:54:53,155 INFO    MainThread:19745 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {'competition': 'siim-fisabio-rsna-covid-19-detection', '_wandb_kernel': 'saifmu6'}
+2021-07-19 15:54:53,156 INFO    MainThread:19745 [wandb_init.py:init():392] re-initializing run, found existing run on stack: atvz8wrk
+2021-07-19 15:54:53,156 INFO    MainThread:19745 [wandb_run.py:finish():1293] finishing run saifmu6/siim-fisabio-rsna-covid-19-detection/atvz8wrk

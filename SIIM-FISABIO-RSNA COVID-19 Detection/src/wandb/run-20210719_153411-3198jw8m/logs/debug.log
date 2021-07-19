@@ -230,3 +230,22 @@ config: {}
 2021-07-19 15:45:58,643 INFO    MainThread:19745 [wandb_init.py:_resume_backend():259] resuming backend
 2021-07-19 15:45:58,782 INFO    MainThread:19745 [wandb_init.py:_pause_backend():250] pausing backend
 2021-07-19 15:45:58,783 INFO    MainThread:19745 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-07-19 15:46:39,390 INFO    MainThread:19745 [wandb_init.py:_resume_backend():259] resuming backend
+2021-07-19 15:46:39,392 INFO    MainThread:19745 [wandb_init.py:_pause_backend():250] pausing backend
+2021-07-19 15:46:39,392 INFO    MainThread:19745 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-07-19 15:48:00,586 INFO    MainThread:19745 [wandb_init.py:_resume_backend():259] resuming backend
+2021-07-19 15:48:00,588 INFO    MainThread:19745 [wandb_init.py:_pause_backend():250] pausing backend
+2021-07-19 15:48:00,590 INFO    MainThread:19745 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-07-19 15:48:03,111 INFO    MainThread:19745 [wandb_init.py:_resume_backend():259] resuming backend
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] setting env: {'silent': 'true'}
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: Currently logged in as: [33msaifmu6[0m (use `wandb login --relogin` to force relogin)
+2021-07-19 15:48:05,577 INFO    MainThread:19745 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: wandb version 0.11.0 is available!  To upgrade, please run:
+[34m[1mwandb[0m:  $ pip install wandb --upgrade
+2021-07-19 15:48:05,578 INFO    MainThread:19745 [wandb_init.py:_log_setup():337] Logging user logs to /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_154805-atvz8wrk/logs/debug.log
+2021-07-19 15:48:05,578 INFO    MainThread:19745 [wandb_init.py:_log_setup():338] Logging internal logs to /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_154805-atvz8wrk/logs/debug-internal.log
+2021-07-19 15:48:05,580 INFO    MainThread:19745 [wandb_init.py:init():370] calling init triggers
+2021-07-19 15:48:05,580 INFO    MainThread:19745 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {}
+2021-07-19 15:48:05,580 INFO    MainThread:19745 [wandb_init.py:init():392] re-initializing run, found existing run on stack: 3198jw8m
+2021-07-19 15:48:05,581 INFO    MainThread:19745 [wandb_run.py:finish():1293] finishing run saifmu6/siim-fisabio-rsna-covid-19-detection/3198jw8m
