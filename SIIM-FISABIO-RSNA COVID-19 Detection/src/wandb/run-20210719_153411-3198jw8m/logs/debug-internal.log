@@ -1,0 +1,86 @@
+2021-07-19 15:34:12,988 INFO    MainThread:20535 [internal.py:wandb_internal():91] W&B internal server running at pid: 20535, started at: 2021-07-19 15:34:12.987606
+2021-07-19 15:34:12,992 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: check_version
+2021-07-19 15:34:12,994 DEBUG   SenderThread:20535 [sender.py:send():179] send: header
+2021-07-19 15:34:12,994 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: check_version
+2021-07-19 15:34:12,994 INFO    WriterThread:20535 [datastore.py:open_for_write():80] open: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/run-3198jw8m.wandb
+2021-07-19 15:34:13,115 DEBUG   SenderThread:20535 [sender.py:send():179] send: run
+2021-07-19 15:34:13,291 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: run_start
+2021-07-19 15:34:13,294 INFO    SenderThread:20535 [dir_watcher.py:__init__():168] watching files in: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files
+2021-07-19 15:34:13,294 INFO    SenderThread:20535 [sender.py:_start_run_threads():719] run started: 3198jw8m with start time 1626708851
+2021-07-19 15:34:13,295 DEBUG   SenderThread:20535 [sender.py:send():179] send: summary
+2021-07-19 15:34:13,295 INFO    SenderThread:20535 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-19 15:34:14,300 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_created():216] file/dir created: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/wandb-summary.json
+2021-07-19 15:34:17,400 DEBUG   HandlerThread:20535 [meta.py:__init__():39] meta init
+2021-07-19 15:34:17,401 DEBUG   HandlerThread:20535 [meta.py:__init__():53] meta init done
+2021-07-19 15:34:17,401 DEBUG   HandlerThread:20535 [meta.py:probe():210] probe
+2021-07-19 15:34:17,408 DEBUG   HandlerThread:20535 [meta.py:_setup_git():200] setup git
+2021-07-19 15:34:17,429 DEBUG   HandlerThread:20535 [meta.py:_setup_git():207] setup git done
+2021-07-19 15:34:17,430 DEBUG   HandlerThread:20535 [meta.py:_save_pip():57] save pip
+2021-07-19 15:34:17,432 DEBUG   HandlerThread:20535 [meta.py:_save_pip():71] save pip done
+2021-07-19 15:34:17,433 DEBUG   HandlerThread:20535 [meta.py:_save_conda():78] save conda
+2021-07-19 15:34:18,339 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_created():216] file/dir created: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:34:18,340 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_created():216] file/dir created: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/conda-environment.yaml
+2021-07-19 15:34:18,340 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_created():216] file/dir created: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/requirements.txt
+2021-07-19 15:34:20,340 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:34:32,345 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:34:36,346 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:34:38,347 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_modified():229] file/dir modified: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/output.log
+2021-07-19 15:34:48,386 DEBUG   HandlerThread:20535 [meta.py:_save_conda():86] save conda done
+2021-07-19 15:34:48,386 DEBUG   HandlerThread:20535 [meta.py:probe():252] probe done
+2021-07-19 15:34:48,391 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:34:48,392 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status
+2021-07-19 15:34:48,395 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,396 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,489 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,489 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,489 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,489 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,495 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,495 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,496 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,496 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,508 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,508 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,508 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,508 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,516 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,516 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,516 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,516 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,527 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,527 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,528 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,528 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,534 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,534 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,536 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,536 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,547 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,547 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,548 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,548 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,555 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,555 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,555 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,555 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:48,567 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: resume
+2021-07-19 15:34:48,567 INFO    HandlerThread:20535 [handler.py:handle_request_resume():520] starting system metrics thread
+2021-07-19 15:34:48,568 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: pause
+2021-07-19 15:34:48,568 INFO    HandlerThread:20535 [handler.py:handle_request_pause():525] stopping system metrics thread
+2021-07-19 15:34:49,073 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,078 DEBUG   SenderThread:20535 [sender.py:send():179] send: files
+2021-07-19 15:34:49,078 INFO    SenderThread:20535 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-19 15:34:49,079 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,079 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,081 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,081 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,081 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,082 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,082 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,082 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,087 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,088 DEBUG   SenderThread:20535 [sender.py:send():179] send: stats
+2021-07-19 15:34:49,353 INFO    Thread-8  :20535 [dir_watcher.py:_on_file_created():216] file/dir created: /root/Kaggle-Competitions/SIIM-FISABIO-RSNA COVID-19 Detection/src/wandb/run-20210719_153411-3198jw8m/files/wandb-metadata.json
+2021-07-19 15:34:50,344 INFO    Thread-20 :20535 [upload_job.py:push():137] Uploaded file /tmp/tmpbgnn0ixtwandb/tlrgscrh-wandb-metadata.json
+2021-07-19 15:35:04,075 DEBUG   HandlerThread:20535 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-19 15:35:04,075 DEBUG   SenderThread:20535 [sender.py:send_request():193] send_request: stop_status

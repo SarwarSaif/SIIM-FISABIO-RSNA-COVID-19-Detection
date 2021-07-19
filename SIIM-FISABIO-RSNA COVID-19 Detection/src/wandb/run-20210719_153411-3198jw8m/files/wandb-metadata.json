@@ -1,0 +1,34 @@
+{
+    "os": "Linux-5.4.120+-x86_64-with-debian-buster-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-07-19T15:34:17.401491",
+    "startedAt": "2021-07-19T15:34:11.934842",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9013",
+        "--control=9011",
+        "--hb=9010",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"681088c4-407a-4d6a-bc32-58e10828d9bc\"",
+        "--shell=9012",
+        "--transport=\"tcp\"",
+        "--iopub=9014",
+        "--f=/tmp/tmp-19449HUhvJtZvlUWH.json"
+    ],
+    "state": "running",
+    "program": "kaggle.ipynb",
+    "root": "/root/Kaggle-Competitions",
+    "git": {
+        "remote": "https://github.com/SarwarSaif/Kaggle-Competitions.git",
+        "commit": "aabfc92a513d53ccd71b038974ed7d499335e8fb"
+    },
+    "email": "saifmu6@gmail.com",
+    "host": "c71211dc06df",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}
