@@ -1,6 +1,7 @@
 <h1 align="center">SIIM-FISABIO-RSNA COVID-19 Detection<h1>
 
-# Kaggle-Competitions
+This is a Kaggle Competition where we were told to identify and localize COVID-19 abnormalities on chest radiographs. 
+**This was an Object Detection and Classification problem**.
 
 ### Setup 
 
