@@ -12,10 +12,10 @@ This was an <b>Object Detection and Classification</b> problem.
 ```
 
 ### Related Research Papers
-<a href="https://www.kaggle.com/allunia/pulmonary-dicom-preprocessing" >Pulmonary Dicom Preprocessing</a>
-
-### Useful Blogs
 <a href="https://arxiv.org/pdf/2106.05152.pdf" >Rethink Transfer Learning in Medical Image
 Classification</a>
 
+
+### Useful Blogs
+<a href="https://www.kaggle.com/allunia/pulmonary-dicom-preprocessing" >Pulmonary Dicom Preprocessing</a>
 
